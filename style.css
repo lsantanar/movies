@@ -1,0 +1,20 @@
+.navbar-brand {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+}
+
+#searchBox {
+    display: inline-block;
+    width:170px;
+}
+
+#btnHello {
+    display: inline-block;
+    margin-right: 300px;
+}
+
+.carousel.slide {
+    align-items: center;
+}
+
