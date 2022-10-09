@@ -24,8 +24,8 @@ Fundo comp2: #FFFFFF */
         margin-right: 300px;
     }
     
-    /* --- BODY --- */
-    /* Lançamentos */
+/* --- BODY --- */
+/* Lançamentos */
     #titleNew {
         text-align: center;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -60,7 +60,7 @@ Fundo comp2: #FFFFFF */
         padding-right: 200px;
     }
     
-    /* Em Destaque */
+/* Em Destaque */
     .card-image {
         padding: 100px;
         text-align: center;
@@ -88,8 +88,35 @@ Fundo comp2: #FFFFFF */
         margin-left: 1410px;
         border-color: #198754;
     }
+
+/* Entrevista */
+    .card-entrevista {
+        padding: 100px;
+        background-color: #F6E8DF;
+    }
+
+    #entrevista {
+        text-align: left;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+        padding-bottom: 30px;
+        padding-left: 45px;
+    }
+
+    .card-entrevista-movies {
+        text-align: center;
+    }
+
+    #iframe1, #iframe2, #iframe3 {
+        text-align: center;
+        width: 504px;
+        height: 500px;
+        display: inline-block;
+        justify-content: space-between;
+        margin-inline-start: 60px;
+    }
     
-    /* --- Footer --- */
+/* --- Footer --- */
     .text-center {
         color: #FFFFFF;
         background-color: #212529;
