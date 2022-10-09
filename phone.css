@@ -1,0 +1,100 @@
+@media screen and (max-width: 599px) {
+/* --- HEADER --- */
+/* Menu */
+    .navbar-brand {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    
+    #searchBox {
+        display: inline-block;
+        width:80px;
+    }
+    
+    #btnHello {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+/* --- BODY --- */
+/* Lançamentos */
+    #titleNew {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    #movieName, #descriptionMovie {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    #movieName {
+        font-size: 20px;
+    }
+
+    .card-movie {
+        background-color: #F6E8DF;
+    } 
+
+    .card-youtube {
+        display: block;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 0px;
+        
+    }
+
+    iframe {
+        width:260px; 
+        height:215px;
+    }
+
+    .card-text {
+        display: block;
+        text-align: justify;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 60px;
+        padding-bottom: 20px;
+
+    }
+
+    /* Em Destaque */
+    .card-image {
+        padding: 40px;
+        text-align: center;
+    }
+
+    #destaque {
+        text-align: left;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+    }
+
+    #img1, #img2, #img3, #img4 {
+        width: 300px;
+        height: 200px;
+        display: block;
+        justify-content: space-between;
+    }
+
+
+
+
+
+    /* --- Footer --- */
+    .text-center {
+        color: #FFFFFF;
+        background-color: #212529;
+    }
+
+
+
+
+}

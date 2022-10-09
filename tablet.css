@@ -1,0 +1,125 @@
+/* --- Paleta de Cores ---
+Primária: #212529
+Botões: #198754
+Fundo comp1: #F6E8DF
+Título h2: #246153
+Fundo comp2: #FFFFFF */
+
+/* --- HEADER --- */
+/* Menu */
+@media screen and (min-width: 600px) {
+    .navbar-brand {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+    
+    #searchBox {
+        display: inline-block;
+        width:190px;
+        margin-left: 0px;
+    }
+    
+    #btnHello {
+        display: inline-block;
+        margin-right: 30px;
+    }
+    
+/* --- BODY --- */
+/* Lançamentos */
+    #titleNew {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    #movieName, #descriptionMovie {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    #movieName {
+        font-size: 20px;
+    }
+    
+    .card-movie {
+        background-color: #F6E8DF;
+    } 
+    
+    .card-youtube {
+        display: block;
+        text-align: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 10px;
+    }
+    
+    .card-text {
+        display: block;
+        text-align: center;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+/* Em Destaque */
+    .card-image {
+        padding: 50px;
+        text-align: center;
+    }
+    
+    #destaque {
+        text-align: left;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        padding-bottom: 30px;
+        padding-left: 5px;
+    }
+    
+    #img1, #img2, #img3, #img4 {
+        width: 300px;
+        height: 400px;
+        display: inline-block;
+        justify-content: space-between;
+    }
+    
+/* --- Footer --- */
+    .text-center {
+        color: #FFFFFF;
+        background-color: #212529;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container-news {
+    height: 0px;
+    width: 500px;
+    background-color: aqua;
+} */
+
+/* #movieName, #descriptionMovie {
+    padding: 50px;
+    display: inline-block;
+    text-align:justify;
+} */
+
+

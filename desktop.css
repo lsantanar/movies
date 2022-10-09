@@ -1,0 +1,90 @@
+/* --- Paleta de Cores ---
+Primária: #212529
+Botões: #198754
+Fundo comp1: #F6E8DF
+Título h2: #246153
+Fundo comp2: #FFFFFF */
+
+/* --- HEADER --- */
+/* Menu */
+@media screen and (min-width: 1200px) {
+    .navbar-brand {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 300px;
+    }
+    
+    #searchBox {
+        display: inline-block;
+        width:170px;
+    }
+    
+    #btnHello {
+        display: inline-block;
+        margin-right: 300px;
+    }
+    
+    /* --- BODY --- */
+    /* Lançamentos */
+    #titleNew {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+        padding-bottom: 70px;
+    }
+    
+    #movieName, #descriptionMovie {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    #movieName {
+        font-size: 30px;
+    }
+    
+    .card-movie {
+        padding: 100px;
+        background-color: #F6E8DF;
+    } 
+    
+    .card-youtube {
+        float: left;
+        text-align: center;
+        padding-left: 200px;
+        padding-right: 60px;
+    }
+    
+    .card-text {
+        text-align: justify;
+        margin-right: 20px;
+        padding-top: 35px;
+        padding-right: 200px;
+    }
+    
+    /* Em Destaque */
+    .card-image {
+        padding: 100px;
+        text-align: center;
+    }
+    
+    #destaque {
+        text-align: left;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+        padding-bottom: 30px;
+        padding-left: 45px;
+    }
+    
+    #img1, #img2, #img3, #img4 {
+        width: 400px;
+        height: 500px;
+        display: inline-block;
+        justify-content: space-between;
+        padding-right: 50px;
+    }
+    
+    /* --- Footer --- */
+    .text-center {
+        color: #FFFFFF;
+        background-color: #212529;
+    }
+}
