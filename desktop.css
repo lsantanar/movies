@@ -32,7 +32,7 @@ Fundo comp2: #FFFFFF */
         font-size: 50px;
         padding-bottom: 70px;
     }
-    
+
     #movieName, #descriptionMovie {
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
@@ -80,6 +80,13 @@ Fundo comp2: #FFFFFF */
         display: inline-block;
         justify-content: space-between;
         padding-right: 50px;
+    }
+
+    .btn-light {
+        margin-top: 20px;
+        text-align: right;
+        margin-left: 1410px;
+        border-color: #198754;
     }
     
     /* --- Footer --- */
